@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mainScreen">
+
+
+    <TextView
+        android:id="@+id/user_mail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="60dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Welcome" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_margin="60dp"
+        android:text="email" />
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_margin="60dp"
+        android:text="id" />
+</LinearLayout>
